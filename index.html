@@ -25,7 +25,8 @@
         <div class="container"><a href="#wybierz" class="six columns">Wybierz</a><a href="#przyjdz" class="six columns">Przyjdź</a></div>
       </div>
       <div id="zamow" class="u-full-width">
-        <div class="container">Telefon: 533 881 829</div>
+        <div class="container"><span>Od 12<sup>00</sup>do 
+20<sup>00</sup></span><span>, Telefon: 533 881 829</span></div>
       </div>
     </div>
     <a name="wybierz"></a>
@@ -42,37 +43,53 @@
               <legend>Kraj</legend><label><input id="tajlandia" type="checkbox"><span>&nbsp;Tajlandia</span></label><label><input id="wietnam" type="checkbox"><span>&nbsp;Wietnam</span></label><label><input id="chiny" type="checkbox"><span>&nbsp;Chiny</span></label></fieldset>
               <fieldset
                 class="three columns">
-                <legend>Konsystencja</legend><label><input id="kremowe" type="checkbox"><span>&nbsp;Kremowe</span></label><label><input id="chrupiace" type="checkbox"><span>&nbsp;Chrupiące</span></label><label><input id="bez_glutenu" type="checkbox"><span>&nbsp;Bezglutenowe</span></label></fieldset>
+                <legend>Konsystencja</legend><label><input id="kremowe" type="checkbox"><span>&nbsp;Kremowe</span></label><label><input id="chrupiace" type="checkbox"><span>&nbsp;Chrupiące</span></label><label><input id="bez_glutenu" type="checkbox"><span>&nbsp;Tylko bezglutenowe</span></label></fieldset>
         </div>
         <div class="row"><button id="szukaj_toggle" class="twelve columns">🔍 Pomóż mi wybrać</button></div>
         <div class="row">
           <div class="six columns">
+            <h3>Dostawa i wynos</h3>
+            <ul>
+              <li class="bez_glutenu menu_item"><strong>Opakowanie na wynos</strong><span class="cena"> 1 zł</span>
+                <div class="opis"></div>
+              </li>
+              <li class="bez_glutenu menu_item"><strong>Dostawa na terenie Fordonu</strong><span class="cena"> 3 zł</span>
+                <div class="opis">Powyżej 50zł <span class="caps">GRATIS</span>!</div>
+              </li>
+              <li class="bez_glutenu menu_item"><strong>Dostawa poza Fordon</strong><span class="cena"> 7 zł</span>
+                <div class="opis"></div>
+              </li>
+            </ul>
+            <hr>
             <h3>Startery</h3>
             <ul>
-              <li class="wege wietnam bez_glutenu best"><strong>Sajgonki</strong><span class="cena"> 3zł/szt</span>
+              <li class="wege wietnam bez_glutenu best menu_item"><strong>Sajgonki</strong><span class="cena"> 3zł/szt</span>
                 <div class="opis">Makaron bun, warzywa, grzyby mun i kiełki fasoli mung zawinięte w papier ryżowy, smażone na chrupko</div>
               </li>
-              <li class="wege wietnam bez_glutenu best"><strong>Spring Rollsy</strong><span class="cena"> 3,5zł/szt</span>
+              <li class="wege wietnam bez_glutenu best menu_item"><strong>Spring Rollsy</strong><span class="cena"> 3,5zł/szt</span>
                 <div class="opis">Świeże warzywa, makaron bun i zioła z kawalkami mięsa lub soi zawinięte w papier ryżowy, podawane na surowo.</div>
               </li>
             </ul>
             <hr>
             <h3>Sałatki</h3>
             <ul>
-              <li class="wege wietnam bez_glutenu best"><strong>Wege Bun Bo</strong><span class="cena"> 15 zł</span>
+              <li class="wege wietnam bez_glutenu best menu_item"><strong>Wege Bun Bo</strong><span class="cena"> 15 zł</span>
                 <div class="opis">makaron ryżowy, wegetariańska wołowina, poszatkowane świeże warzywa, polane pysznym sosem</div>
               </li>
-              <li class="mieso wietnam bez_glutenu best"><strong>Bun bo</strong><span class="cena"> 15zł</span>
+              <li class="mieso wietnam bez_glutenu best menu_item"><strong>Bun bo</strong><span class="cena"> 15zł</span>
                 <div class="opis">Podsmażona wołowina z makaronem ryżowym, sałatką i fistaszkami zalana pysznym sosem</div>
               </li>
-              <li class="wege wietnam bez_glutenu best"><strong>Bun Nem</strong><span class="cena"> 15 zł</span>
+              <li class="wege wietnam bez_glutenu best menu_item"><strong>Bun Nem</strong><span class="cena"> 15 zł</span>
                 <div class="opis">sajgonki wegetariańskie z sałatką i makaronem ryżowym, podane z sosem</div>
               </li>
             </ul>
             <hr>
             <h3>Desery</h3>
             <ul>
-              <li class="chrupiace slodkie wietnam best"><strong>Kulki sezamowe nadziane czerwoną fasolą podawane z miodem</strong><span class="cena"> 10 zł/5 szt</span>
+              <li class="chrupiace slodkie wietnam best menu_item"><strong>Kulki sezamowe nadziane czerwoną fasolą podawane z miodem</strong><span class="cena"> 10 zł/5 szt</span>
+                <div class="opis"></div>
+              </li>
+              <li class="chrupiace slodkie wietnam best menu_item"><strong>Owoce w cieście</strong><span class="cena"> 8 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
@@ -80,52 +97,52 @@
           <div class="six columns">
             <h3>Zupy</h3>
             <ul>
-              <li class="wege wietnam lagodne bez_glutenu"><strong>Bulion warzywny ze smażonym tofu i pomidorami</strong><span class="cena"> 8 zł</span>
+              <li class="wege wietnam lagodne bez_glutenu menu_item"><strong>Bulion warzywny ze smażonym tofu i pomidorami</strong><span class="cena"> 8 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege wietnam lagodne bez_glutenu"><strong>Bulion warzywny z cukinią</strong><span class="cena"> 8 zł</span>
+              <li class="wege wietnam lagodne bez_glutenu menu_item"><strong>Bulion warzywny z cukinią</strong><span class="cena"> 8 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege wietnam lagodne bez_glutenu best"><strong>Wywar z algami, kotletem sojowym i czerwoną fasolą doprawiony sosem sezamowym</strong><span class="cena"> 10 zł</span>
+              <li class="wege wietnam lagodne bez_glutenu best menu_item"><strong>Wywar z algami, kotletem sojowym i czerwoną fasolą doprawiony sosem sezamowym</strong><span class="cena"> 10 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege tajlandia ostre kremowe bez_glutenu"><strong>Wege Tom Yum</strong><span class="cena"> 12 zł</span>
+              <li class="wege tajlandia ostre kremowe bez_glutenu menu_item"><strong>Wege Tom Yum</strong><span class="cena"> 12 zł</span>
                 <div class="opis">Aromatyczna zupa z tofu i kotletem sojowym doprawiona trawą cytrynową i mleczkiem kokosowym</div>
               </li>
-              <li class="mieso tajlandia ostre kremowe bez_glutenu"><strong>Tom Yum z kurczakiem</strong><span class="cena"> 10 zł</span>
+              <li class="mieso tajlandia ostre kremowe bez_glutenu menu_item"><strong>Tom Yum z kurczakiem</strong><span class="cena"> 10 zł</span>
                 <div class="opis">Aromatyczna zupa z tofu i kotletem sojowym doprawiona trawą cytrynową i mleczkiem kokosowym</div>
               </li>
-              <li class="mieso tajlandia ostre kremowe bez_glutenu best"><strong>Tom Yum z krewetkami</strong><span class="cena"> 12 zł</span>
+              <li class="mieso tajlandia ostre kremowe bez_glutenu best menu_item"><strong>Tom Yum z krewetkami</strong><span class="cena"> 12 zł</span>
                 <div class="opis">Aromatyczna zupa z tofu i kotletem sojowym doprawiona trawą cytrynową i mleczkiem kokosowym</div>
               </li>
-              <li class="wege tajlandia ostre kremowe bez_glutenu"><strong>Wege Tom Kha</strong><span class="cena"> 12 zł</span>
+              <li class="wege tajlandia ostre kremowe bez_glutenu menu_item"><strong>Wege Tom Kha</strong><span class="cena"> 12 zł</span>
                 <div class="opis">Kremowa aromatyczna zupa z tofu i kotletem sojowym z dodatkiem cukinii i pieczarek</div>
               </li>
-              <li class="mieso tajlandia ostre kremowe bez_glutenu"><strong>Tom Kha z kurczakiem</strong><span class="cena"> 10 zł</span>
+              <li class="mieso tajlandia ostre kremowe bez_glutenu menu_item"><strong>Tom Kha z kurczakiem</strong><span class="cena"> 10 zł</span>
                 <div class="opis">Aromatyczna zupa z tofu i kotletem sojowym doprawiona trawą cytrynową i mleczkiem kokosowym</div>
               </li>
-              <li class="mieso tajlandia ostre kremowe bez_glutenu"><strong>Tom Kha z krewetkami</strong><span class="cena"> 12 zł</span>
+              <li class="mieso tajlandia ostre kremowe bez_glutenu menu_item"><strong>Tom Kha z krewetkami</strong><span class="cena"> 12 zł</span>
                 <div class="opis">Aromatyczna zupa z tofu i kotletem sojowym doprawiona trawą cytrynową i mleczkiem kokosowym</div>
               </li>
-              <li class="wege wietnam ostre bez_glutenu"><strong>Bun Mang</strong><span class="cena"> 15 zł</span>
+              <li class="wege wietnam ostre bez_glutenu menu_item"><strong>Bun Mang</strong><span class="cena"> 15 zł</span>
                 <div class="opis">Rosół warzywny z mięsem sojowym, bambusem i makaronem ryżowym bun</div>
               </li>
-              <li class="wege wietnam bez_glutenu"><strong>Wege Pho</strong><span class="cena"> 15zł</span>
+              <li class="wege wietnam bez_glutenu menu_item"><strong>Wege Pho</strong><span class="cena"> 15zł</span>
                 <div class="opis">Tradycyjna aromatyczna wietnamska zupa rozgrzewająca</div>
               </li>
-              <li class="mieso wietnam bez_glutenu"><strong>Pho z kurczakiem</strong><span class="cena"> 15 zł</span>
+              <li class="mieso wietnam bez_glutenu menu_item"><strong>Pho z kurczakiem</strong><span class="cena"> 15 zł</span>
                 <div class="opis">Tradycyjna wietnamska zupa rozgrzewająca</div>
               </li>
-              <li class="mieso wietnam bez_glutenu best"><strong>Pho z wołowiną</strong><span class="cena"> 15 zł</span>
+              <li class="mieso wietnam bez_glutenu best menu_item"><strong>Pho z wołowiną</strong><span class="cena"> 15 zł</span>
                 <div class="opis">Tradycyjna wietnamska zupa rozgrzewająca</div>
               </li>
-              <li class="mieso wietnam bez_glutenu"><strong>Pho z kurczakiem i wołowiną</strong><span class="cena"> 15 zł</span>
+              <li class="mieso wietnam bez_glutenu menu_item"><strong>Pho z kurczakiem i wołowiną</strong><span class="cena"> 15 zł</span>
                 <div class="opis">Tradycyjna wietnamska zupa rozgrzewająca</div>
               </li>
-              <li class="mieso tajlandia kremowe lagodne bez_glutenu"><strong>Tajska</strong><span class="cena"> 10 zł</span>
+              <li class="mieso tajlandia kremowe lagodne bez_glutenu menu_item"><strong>Tajska</strong><span class="cena"> 10 zł</span>
                 <div class="opis">Z mlekiem kokosowym, trawą cytrynową i kawałkami piersi kurczaka</div>
               </li>
-              <li class="mieso wietnam ostre bez_glutenu best"><strong>Bun Mang</strong><span class="cena"> 15 zł</span>
+              <li class="mieso wietnam ostre bez_glutenu best menu_item"><strong>Bun Mang</strong><span class="cena"> 15 zł</span>
                 <div class="opis">bulion z mięsem z kurczaka, pędami bambusa, pomidorami i kiełkami fasoli</div>
               </li>
             </ul>
@@ -133,32 +150,32 @@
         </div>
         <hr>
         <h2>Dania główne</h2>
-        <div class="row wege">
+        <div class="row wege menu_item">
           <div class="six columns">
             <h3>Tofu</h3>
             <ul>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Kosteczki sera Tofu w delikatnym sosie pomidorowym</strong><span class="cena"> 15 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Kosteczki sera Tofu w delikatnym sosie pomidorowym</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Z bakłażanem i pomidorem</strong><span class="cena"> 16 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Z bakłażanem i pomidorem</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Z orzechami nerkowca</strong><span class="cena"> 16 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Z orzechami nerkowca</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne chiny bez_glutenu"><strong>W sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
+              <li class="wege lagodne chiny bez_glutenu menu_item"><strong>W sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege ostre wietnam bez_glutenu"><strong>W pikantnym sosie  bambusowym</strong><span class="cena"> 15 zł</span>
+              <li class="wege ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie  bambusowym</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege ostre tajlandia bez_glutenu"><strong>W czerwonym, zielonym lub żółtym sosie curry</strong><span class="cena"> 15 zł</span>
+              <li class="wege ostre tajlandia bez_glutenu menu_item"><strong>W czerwonym, zielonym lub żółtym sosie curry</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege slodkie wietnam bez_glutenu"><strong>W łagodnym sosie z ananasem</strong><span class="cena"> 15 zł</span>
+              <li class="wege slodkie wietnam bez_glutenu menu_item"><strong>W łagodnym sosie z ananasem</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege ostre wietnam bez_glutenu"><strong>W lekko ostrym sosie o aromacie trawy cytrynowej z warzywami na gorącym półmisku</strong><span class="cena"> 17 zł</span>
+              <li class="wege ostre wietnam bez_glutenu menu_item"><strong>W lekko ostrym sosie o aromacie trawy cytrynowej z warzywami na gorącym półmisku</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
@@ -166,80 +183,80 @@
           <div class="six columns">
             <h3>Kotlet sojowy</h3>
             <ul>
-              <li class="wege ostre wietnam bez_glutenu"><strong>Z bambusem i grzybami mun</strong><span class="cena"> 16 zł</span>
+              <li class="wege ostre wietnam bez_glutenu menu_item"><strong>Z bambusem i grzybami mun</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Z kiełkami i selerem naciowym</strong><span class="cena"> 16 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Z kiełkami i selerem naciowym</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne chiny bez_glutenu"><strong>W aromatycznym sosie Yin Yang o pięciu smakach</strong><span class="cena"> 16 zł</span>
+              <li class="wege lagodne chiny bez_glutenu menu_item"><strong>W aromatycznym sosie Yin Yang o pięciu smakach</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege ostre tajlandia bez_glutenu"><strong>W sosie Curry</strong><span class="cena"> 16 zł</span>
+              <li class="wege ostre tajlandia bez_glutenu menu_item"><strong>W sosie Curry</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege ostre wietnam bez_glutenu"><strong>W pikantnym sosie</strong><span class="cena"> 16 zł</span>
+              <li class="wege ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>kotlety sojowe z czarnym sezamem</strong><span class="cena"> 16 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>kotlety sojowe z czarnym sezamem</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="chrupiace lagodne"><strong>Chrupiące kotlety sojowe podane na sosie z warzyw</strong><span class="cena"> 16 zł</span>
+              <li class="chrupiace lagodne menu_item"><strong>Chrupiące kotlety sojowe podane na sosie z warzyw</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="chrupiace lagodne"><strong>W sezamie na sosie warzywnym</strong><span class="cena"> 16 zł</span>
+              <li class="chrupiace lagodne menu_item"><strong>W sezamie na sosie warzywnym</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="chrupiace lagodne slodkie"><strong>Chrupiące kotlety wegetariańskie z sosem tajskim</strong><span class="cena"> 16 zł</span>
+              <li class="chrupiace lagodne slodkie menu_item"><strong>Chrupiące kotlety wegetariańskie z sosem tajskim</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="row mieso">
+        <div class="row mieso menu_item">
           <div class="six columns">
             <h3>Kurczak</h3>
             <ul>
-              <li class="mieso chrupiace slodko_kwasne tajlandia"><strong>Thai Crunchy Chick</strong><span class="cena"> 15zł</span>
+              <li class="mieso chrupiace slodko_kwasne tajlandia menu_item"><strong>Thai Crunchy Chick</strong><span class="cena"> 15zł</span>
                 <div class="opis">Chrupiące filety z kurczaka podane na aromatycznym tajskim sosie</div>
               </li>
-              <li class="mieso lagodne chiny bez_glutenu"><strong>W sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
+              <li class="mieso lagodne chiny bez_glutenu menu_item"><strong>W sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso slodkie, wietnam bez_glutenu best"><strong>W delikatnym słodkim sosie z ananasów i brzoskwiń</strong><span class="cena"> 17 zł</span>
+              <li class="mieso slodkie, wietnam bez_glutenu best menu_item"><strong>W delikatnym słodkim sosie z ananasów i brzoskwiń</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne chrupiace"><strong>Smażony w cieście sezamowym, podany na warzywnym sosie</strong><span class="cena"> 16 zł</span>
+              <li class="mieso lagodne chrupiace menu_item"><strong>Smażony w cieście sezamowym, podany na warzywnym sosie</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>Z grzybami mun i bambusem</strong><span class="cena"> 15 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>Z grzybami mun i bambusem</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso wietnam bez_glutenu"><strong>Z orzechami nerkowca</strong><span class="cena"> 17 zł</span>
+              <li class="mieso wietnam bez_glutenu menu_item"><strong>Z orzechami nerkowca</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre tajlandia bez_glutenu"><strong>Soczyste kawałki piersi kurczaka w czerwonym, zielonym lub żółtym sosie Curry</strong><span class="cena"> 16 zł</span>
+              <li class="mieso ostre tajlandia bez_glutenu menu_item"><strong>Soczyste kawałki piersi kurczaka w czerwonym, zielonym lub żółtym sosie Curry</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym sosie z warzyw</strong><span class="cena"> 15 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym sosie z warzyw</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 15 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne tajlandia bez_glutenu"><strong>W sosie z mleka kokosowego</strong><span class="cena"> 16 zł</span>
+              <li class="mieso lagodne tajlandia bez_glutenu menu_item"><strong>W sosie z mleka kokosowego</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso wietnam ostre bez_glutenu"><strong>Przyrządzony po wietnamsku</strong><span class="cena"> 17 zł</span>
+              <li class="mieso wietnam ostre bez_glutenu menu_item"><strong>Przyrządzony po wietnamsku</strong><span class="cena"> 17 zł</span>
                 <div class="opis">Kawałki udka kurczaka na ostro z trawą cytrynową i chilli</div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>Gong Bao</strong><span class="cena"> 17 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>Gong Bao</strong><span class="cena"> 17 zł</span>
                 <div class="opis">Pikantno-słodko-kwaśny sos z fistaszkami</div>
               </li>
-              <li class="mieso chrupiace wietnam"><strong>Hao Hao</strong><span class="cena"> 17 zł</span>
+              <li class="mieso chrupiace wietnam menu_item"><strong>Hao Hao</strong><span class="cena"> 17 zł</span>
                 <div class="opis">Udka kurczaka smażone w sezamie</div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>Kan Ton</strong><span class="cena"> 17 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>Kan Ton</strong><span class="cena"> 17 zł</span>
                 <div class="opis">Lekko pikantne smażone kawałki piersi kurczaka na gorącym półmisku</div>
               </li>
             </ul>
@@ -247,62 +264,62 @@
           <div class="six columns">
             <h3>Kaczka</h3>
             <ul>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 18 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 18 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne slodkie chiny bez_glutenu"><strong>W sosie pomarańczowym</strong><span class="cena"> 22 zł</span>
+              <li class="mieso lagodne slodkie chiny bez_glutenu menu_item"><strong>W sosie pomarańczowym</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne chrupiace wietnam"><strong>Filet kaczy podany na warzywach na gorącym półmisku</strong><span class="cena"> 22 zł</span>
+              <li class="mieso lagodne chrupiace wietnam menu_item"><strong>Filet kaczy podany na warzywach na gorącym półmisku</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso chrupiace lagodne"><strong>Chrupiąca podana z łagodnym sosem warzywnym</strong><span class="cena"> 22 zł</span>
+              <li class="mieso chrupiace lagodne menu_item"><strong>Chrupiąca podana z łagodnym sosem warzywnym</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre kremowe tajlandia bez_glutenu best"><strong>W czerwonym sosie curry z ananasem</strong><span class="cena"> 22 zł</span>
+              <li class="mieso ostre kremowe tajlandia bez_glutenu best menu_item"><strong>W czerwonym sosie curry z ananasem</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso, lagodne, chiny bez_glutenu"><strong>Kaczka w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
+              <li class="mieso, lagodne, chiny bez_glutenu menu_item"><strong>Kaczka w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso, pikantne, chrupiace, chiny"><strong>Po pekińsku - filet z kaczki podany na lekko pikantnym ciemnym sosie</strong><span class="cena"> 22 zł</span>
+              <li class="mieso, pikantne, chrupiace, chiny menu_item"><strong>Po pekińsku - filet z kaczki podany na lekko pikantnym ciemnym sosie</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="row mieso">
+        <div class="row mieso menu_item">
           <div class="six columns">
             <h3>Wołowina</h3>
             <ul>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 17 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 17 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne chiny bez_glutenu"><strong>W aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 17 zł</span>
+              <li class="mieso lagodne chiny bez_glutenu menu_item"><strong>W aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym ciemnym sosie z bambusem i grzybami mun</strong><span class="cena"> 18 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym ciemnym sosie z bambusem i grzybami mun</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso wietnam bez_glutenu"><strong>Kawałki wołowiny podsmażone z kiełkami i selerem naciowym</strong><span class="cena"> 18 zł</span>
+              <li class="mieso wietnam bez_glutenu menu_item"><strong>Kawałki wołowiny podsmażone z kiełkami i selerem naciowym</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso wietnam ostre bez_glutenu"><strong>Lekko ostre tradycyjne wietnamskie danie podawane na gorącym półmisku</strong><span class="cena"> 20 zł</span>
+              <li class="mieso wietnam ostre bez_glutenu menu_item"><strong>Lekko ostre tradycyjne wietnamskie danie podawane na gorącym półmisku</strong><span class="cena"> 20 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso, ostre, kremowe, tajlandia, bez_glutenu"><strong>Kawałki wołowiny w czerwonym, zielonym lub żółtym sosie Curry na bazie mleka kokosowego</strong><span class="cena"> 18 zł</span>
+              <li class="mieso, ostre, kremowe, tajlandia, bez_glutenu menu_item"><strong>Kawałki wołowiny w czerwonym, zielonym lub żółtym sosie Curry na bazie mleka kokosowego</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso slodkie wietnam bez_glutenu best"><strong>Z ananasem, warzywami i brzoskwiniami</strong><span class="cena"> 20 zł</span>
+              <li class="mieso slodkie wietnam bez_glutenu best menu_item"><strong>Z ananasem, warzywami i brzoskwiniami</strong><span class="cena"> 20 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso wietnam bez_glutenu"><strong>W sosie warzywnym obsypana chrupiącym sezamem</strong><span class="cena"> 18 zł</span>
+              <li class="mieso wietnam bez_glutenu menu_item"><strong>W sosie warzywnym obsypana chrupiącym sezamem</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
@@ -310,87 +327,87 @@
           <div class="six columns">
             <h3>Wieprzowina</h3>
             <ul>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 15 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym sosie warzywnym</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 15 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>W pikantnym sosie z pędami bambusa</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne chiny bez_glutenu best"><strong>W aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
+              <li class="mieso lagodne chiny bez_glutenu best menu_item"><strong>W aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>W łagodnym sosie z grzybami mun, bambusem i warzywami</strong><span class="cena"> 15 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>W łagodnym sosie z grzybami mun, bambusem i warzywami</strong><span class="cena"> 15 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre wietnam bez_glutenu"><strong>Mięso smażone z warzywami na ostro podawane na gorącym półmisku</strong><span class="cena"> 17 zł</span>
+              <li class="mieso ostre wietnam bez_glutenu menu_item"><strong>Mięso smażone z warzywami na ostro podawane na gorącym półmisku</strong><span class="cena"> 17 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso ostre tajlandia bez_glutenu"><strong>Kawałki schabu w czerwonym, zielonym lub żółtym sosie Curry na bazie mleka kokosowego</strong><span class="cena"> 16 zł</span>
+              <li class="mieso ostre tajlandia bez_glutenu menu_item"><strong>Kawałki schabu w czerwonym, zielonym lub żółtym sosie Curry na bazie mleka kokosowego</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
           </div>
         </div>
         <hr>
-        <div class="row owoce_morza">
+        <div class="row owoce_morza menu_item">
           <div class="twelve columns">
             <h3>Owoce morza</h3>
             <ul>
-              <li class="owoce_morza chrupiace best"><strong>Chrupiące krewetki w sezamie</strong><span class="cena"> 22zł</span>
+              <li class="owoce_morza chrupiace best menu_item"><strong>Chrupiące krewetki w sezamie</strong><span class="cena"> 22zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki lagodne wietnam"><strong>Krewetki łagodne z warzywami</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza krewetki lagodne wietnam menu_item"><strong>Krewetki łagodne z warzywami</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki ostre wietnam,"><strong>Krewetki pikantne z bambusem</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza krewetki ostre wietnam, menu_item"><strong>Krewetki pikantne z bambusem</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki lagodne chiny"><strong>Krewetki w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza krewetki lagodne chiny menu_item"><strong>Krewetki w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki ostre tajlandia best"><strong>Krewetki w czerwonym sosie curry z ananasem</strong><span class="cena"> 22 zł</span>
+              <li class="owoce_morza krewetki ostre tajlandia best menu_item"><strong>Krewetki w czerwonym sosie curry z ananasem</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki ostre wietnam"><strong>Krewetki przyrządzone w tradycyjny wietnamski sposób podane na gorącym półmisku</strong><span class="cena"> 22 zł</span>
+              <li class="owoce_morza krewetki ostre wietnam menu_item"><strong>Krewetki przyrządzone w tradycyjny wietnamski sposób podane na gorącym półmisku</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza krewetki chrupiace"><strong>Krewetki w chrupiącej panierce podane na sosie z warzyw</strong><span class="cena"> 22 zł</span>
+              <li class="owoce_morza krewetki chrupiace menu_item"><strong>Krewetki w chrupiącej panierce podane na sosie z warzyw</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary lagodne wietnam"><strong>Kalmary z warzywami</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza kalmary lagodne wietnam menu_item"><strong>Kalmary z warzywami</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary ostre wietnam"><strong>Kalmary w pikantnym sosie z bambusem</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza kalmary ostre wietnam menu_item"><strong>Kalmary w pikantnym sosie z bambusem</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary ostre tajlandia"><strong>Kalmary w sosie Curry</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza kalmary ostre tajlandia menu_item"><strong>Kalmary w sosie Curry</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary lagodne chiny"><strong>Kalmary w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza kalmary lagodne chiny menu_item"><strong>Kalmary w aromatycznym sosie Yin Yang o pięciu smakach z grzybami mun</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary ostre wietnam"><strong>Kalmary z lekko ostrym sosem warzywnym na gorącym półmisku</strong><span class="cena"> 20 zł</span>
+              <li class="owoce_morza kalmary ostre wietnam menu_item"><strong>Kalmary z lekko ostrym sosem warzywnym na gorącym półmisku</strong><span class="cena"> 20 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary"><strong>Kalmary w sezamie</strong><span class="cena"> 20 zł</span>
+              <li class="owoce_morza kalmary menu_item"><strong>Kalmary w sezamie</strong><span class="cena"> 20 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza kalmary"><strong>Kalmary chrupiące</strong><span class="cena"> 20 zł</span>
+              <li class="owoce_morza kalmary menu_item"><strong>Kalmary chrupiące</strong><span class="cena"> 20 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza"><strong>Pstrąg grillowany</strong><span class="cena"> 22 zł</span>
+              <li class="owoce_morza menu_item"><strong>Pstrąg grillowany</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza"><strong>Pstrąg duszony</strong><span class="cena"> 22 zł</span>
+              <li class="owoce_morza menu_item"><strong>Pstrąg duszony</strong><span class="cena"> 22 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza lagodne"><strong>Filet na sosie z warzyw</strong><span class="cena"> 16 zł</span>
+              <li class="owoce_morza lagodne menu_item"><strong>Filet na sosie z warzyw</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza ostre"><strong>Filet na gorącym półmisku</strong><span class="cena"> 18 zł</span>
+              <li class="owoce_morza ostre menu_item"><strong>Filet na gorącym półmisku</strong><span class="cena"> 18 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="owoce_morza ostre"><strong>Filet na pikantnym sosie</strong><span class="cena"> 16 zł</span>
+              <li class="owoce_morza ostre menu_item"><strong>Filet na pikantnym sosie</strong><span class="cena"> 16 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
@@ -401,73 +418,73 @@
           <div class="six columns">
             <h3>Makarony</h3>
             <ul>
-              <li class="wege tajlandia ostre bez_glutenu"><strong>Wege Pad Thai</strong><span class="cena"> 18 zł</span>
+              <li class="wege tajlandia ostre bez_glutenu menu_item"><strong>Wege Pad Thai</strong><span class="cena"> 18 zł</span>
                 <div class="opis">Z kotletem sojowym, tofu, papryką i kiełkami, posypany fistaszkami</div>
               </li>
-              <li class="wege wietnam lagodne best"><strong>Makaron wietnamski z tofu</strong><span class="cena"> 13 zł</span>
+              <li class="wege wietnam lagodne best menu_item"><strong>Makaron wietnamski z tofu</strong><span class="cena"> 13 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="wege wietnam lagodne"><strong>Makaron wietnamski z kotletem sojowym</strong><span class="cena"> 14 zł</span>
+              <li class="wege wietnam lagodne menu_item"><strong>Makaron wietnamski z kotletem sojowym</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="wege wietnam lagodne"><strong>Makaron wietnamski z warzywami</strong><span class="cena"> 12 zł</span>
+              <li class="wege wietnam lagodne menu_item"><strong>Makaron wietnamski z warzywami</strong><span class="cena"> 12 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="wege lagodne chiny"><strong>Makaron żółty z tofu</strong><span class="cena"> 13 zł</span>
+              <li class="wege lagodne chiny menu_item"><strong>Makaron żółty z tofu</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne chiny"><strong>Makaron żółty z kotletem sojowym</strong><span class="cena"> 14 zł</span>
+              <li class="wege lagodne chiny menu_item"><strong>Makaron żółty z kotletem sojowym</strong><span class="cena"> 14 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne chiny"><strong>Makaron żółty z warzywami</strong><span class="cena"> 12 zł</span>
+              <li class="wege lagodne chiny menu_item"><strong>Makaron żółty z warzywami</strong><span class="cena"> 12 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu best"><strong>Tradycyjny wietnamski makaron Pho smażony z tofu</strong><span class="cena"> 14 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu best menu_item"><strong>Tradycyjny wietnamski makaron Pho smażony z tofu</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Tradycyjny wietnamski makaron Pho smażony z kotletem sojowym</strong><span class="cena"> 14 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Tradycyjny wietnamski makaron Pho smażony z kotletem sojowym</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="wege lagodne wietnam"><strong>Tradycyjny wietnamski makaron Pho smażony z warzywami</strong><span class="cena"> 13 zł</span>
+              <li class="wege lagodne wietnam menu_item"><strong>Tradycyjny wietnamski makaron Pho smażony z warzywami</strong><span class="cena"> 13 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="mieso wietnam lagodne best"><strong>Makaron wietnamski z kurczakiem</strong><span class="cena"> 13 zł</span>
+              <li class="mieso wietnam lagodne best menu_item"><strong>Makaron wietnamski z kurczakiem</strong><span class="cena"> 13 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="mieso wietnam lagodne"><strong>Makaron wietnamski z wołowiną</strong><span class="cena"> 14 zł</span>
+              <li class="mieso wietnam lagodne menu_item"><strong>Makaron wietnamski z wołowiną</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="mieso wietnam lagodne"><strong>Makaron wietnamski z krewetkami</strong><span class="cena"> 14 zł</span>
+              <li class="mieso wietnam lagodne menu_item"><strong>Makaron wietnamski z krewetkami</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Zasmażony z szatkowanymi świeżymi warzywami i kiełkami fasoli Mung</div>
               </li>
-              <li class="mieso wietnam lagodne bez_glutenu"><strong>Makaron Pho smażony z kurczakiem</strong><span class="cena"> 16 zł</span>
+              <li class="mieso wietnam lagodne bez_glutenu menu_item"><strong>Makaron Pho smażony z kurczakiem</strong><span class="cena"> 16 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="mieso wietnam lagodne bez_glutenu"><strong>Makaron Pho smażony z wołowiną</strong><span class="cena"> 18 zł</span>
+              <li class="mieso wietnam lagodne bez_glutenu menu_item"><strong>Makaron Pho smażony z wołowiną</strong><span class="cena"> 18 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="mieso wietnam lagodne bez_glutenu"><strong>Makaron Pho smażony z wieprzowiną</strong><span class="cena"> 16 zł</span>
+              <li class="mieso wietnam lagodne bez_glutenu menu_item"><strong>Makaron Pho smażony z wieprzowiną</strong><span class="cena"> 16 zł</span>
                 <div class="opis">Ryżowy makaron ze świeżymi szatkowanymi warzywami i kiełkami fasoli Mung posypany prażonym słonecznikiem</div>
               </li>
-              <li class="mieso tajlandia ostre bez_glutenu"><strong>Makaron Pad Thai z kurczakiem</strong><span class="cena"> 18 zł</span>
+              <li class="mieso tajlandia ostre bez_glutenu menu_item"><strong>Makaron Pad Thai z kurczakiem</strong><span class="cena"> 18 zł</span>
                 <div class="opis">Przyrządzony z sosem z owoców tamaryndowca ze świeżymi warzywami, posypany fistaszkami</div>
               </li>
-              <li class="krewetki tajlandia ostre bez_glutenu"><strong>Makaron Pad Thai z krewetkami</strong><span class="cena"> 20 zł</span>
+              <li class="krewetki tajlandia ostre bez_glutenu menu_item"><strong>Makaron Pad Thai z krewetkami</strong><span class="cena"> 20 zł</span>
                 <div class="opis">Przyrządzony z sosem z owoców tamaryndowca ze świeżymi warzywami, posypany fistaszkami</div>
               </li>
-              <li class="mieso krewetki tajlandia ostre bez_glutenu best"><strong>Makaron Pad Thai pad thai kung</strong><span class="cena"> 20 zł</span>
+              <li class="mieso krewetki tajlandia ostre bez_glutenu best menu_item"><strong>Makaron Pad Thai pad thai kung</strong><span class="cena"> 20 zł</span>
                 <div class="opis">Przyrządzony z sosem z owoców tamaryndowca ze świeżymi warzywami, posypany fistaszkami</div>
               </li>
-              <li class="mieso slodkie tajlandia lagodne best"><strong>Makaron żółty po tajsku</strong><span class="cena"> 14 zł</span>
+              <li class="mieso slodkie tajlandia lagodne best menu_item"><strong>Makaron żółty po tajsku</strong><span class="cena"> 14 zł</span>
                 <div class="opis">Z mlekiem kokosowym, trawą cytrynową i warzywami</div>
               </li>
-              <li class="mieso slodkie chiny lagodne"><strong>Makaron żółty z kurczakiem</strong><span class="cena"> 13 zł</span>
+              <li class="mieso slodkie chiny lagodne menu_item"><strong>Makaron żółty z kurczakiem</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso slodkie chiny lagodne"><strong>Makaron żółty z wołowiną</strong><span class="cena"> 13 zł</span>
+              <li class="mieso slodkie chiny lagodne menu_item"><strong>Makaron żółty z wołowiną</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso slodkie chiny lagodne"><strong>Makaron żółty z wieprzowiną</strong><span class="cena"> 13 zł</span>
+              <li class="mieso slodkie chiny lagodne menu_item"><strong>Makaron żółty z wieprzowiną</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
@@ -475,25 +492,25 @@
           <div class="six columns">
             <h3>Ryże</h3>
             <ul>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>Ryż smażony</strong><span class="cena"> </span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony</strong><span class="cena"> </span>
                 <div class="opis">Z jajkiem i warzywami, skropiony cytryną i posypany prażoną cebulką</div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Ryż smażony z tofu</strong><span class="cena"> 13 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony z tofu</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Ryż smażony z kotletem sojowym</strong><span class="cena"> 14 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony z kotletem sojowym</strong><span class="cena"> 14 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="wege lagodne wietnam bez_glutenu"><strong>Ryż smażony z warzywami</strong><span class="cena"> 12 zł</span>
+              <li class="wege lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony z warzywami</strong><span class="cena"> 12 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>Ryż smażony z kurczakiem</strong><span class="cena"> 13 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony z kurczakiem</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu"><strong>Ryż smażony z wieprzowiną</strong><span class="cena"> 13 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu menu_item"><strong>Ryż smażony z wieprzowiną</strong><span class="cena"> 13 zł</span>
                 <div class="opis"></div>
               </li>
-              <li class="mieso lagodne wietnam bez_glutenu best"><strong>Ryż smażony z wołowiną</strong><span class="cena"> 14 zł</span>
+              <li class="mieso lagodne wietnam bez_glutenu best menu_item"><strong>Ryż smażony z wołowiną</strong><span class="cena"> 14 zł</span>
                 <div class="opis"></div>
               </li>
             </ul>
